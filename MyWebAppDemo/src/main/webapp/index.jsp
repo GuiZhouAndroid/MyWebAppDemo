@@ -27,6 +27,17 @@
             text-align: center;
             padding: 15px;
         }
+        a {
+            height: 20px;
+            display: inline-block;
+            padding: 6px;
+            background-color: #00B4F9;
+            text-decoration: none;
+            color: white;
+            border-radius: 3px;
+            line-height: 20px;
+            text-align: center;
+        }
         .footer{
             width: 90%;
             text-align: center;
@@ -40,12 +51,9 @@
 <body>
 <div class="divcenter">
     <h1>欢迎来到学费管理系统</h1>
-    <a style="height: 20px;display: inline-block;padding: 6px; background-color: #00B4F9;text-decoration: none; color: white;border-radius: 3px;line-height: 20px; text-align: center;"
-       href="view/student/addStudentInfo.jsp">添加用户</a>
-    <a style="height: 20px;display: inline-block;padding: 6px; background-color: #00B4F9;text-decoration: none; color: white;border-radius: 3px;line-height: 20px; text-align: center;"
-       href="view/student/queryStudentInfo.jsp">查询单个用户</a>
-    <a style="height: 20px;display: inline-block;padding: 6px; background-color: #00B4F9;text-decoration: none; color: white;border-radius: 3px;line-height: 20px; text-align: center;"
-       href="${pageContext.request.contextPath }/QueryAllStudentController">查询全部用户</a>
+    <a href="view/student/addStudentInfo.jsp">添加用户</a>
+    <a href="view/student/queryStudentInfo.jsp">查询单个用户</a>
+    <a href="${pageContext.request.contextPath }/QueryAllStudentController">查询全部用户</a>
 </div>
 <div class="footer"><a style="color: #FF0000" href="https://beian.miit.gov.cn" target="_blank">公安ICP备案号</a>
 </div>
